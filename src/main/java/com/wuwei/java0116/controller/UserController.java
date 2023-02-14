@@ -16,6 +16,7 @@ public class UserController {
                 User user = userService.select(loginname, password);
                 if (user==null){
                         System.out.println("adsas");
+                        System.out.println("adsas");
                         return "index";
                 }
 
